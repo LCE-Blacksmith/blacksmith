@@ -1,0 +1,13 @@
+compile_commands.json
+.cache/
+.idea/
+.vscode/c_cpp_properties.json
+.vscode/tasks.json
+compile_commands/
+src/generated/
+tools/**/__pycache__
+build*/
+.vs/
+ipch/
+$tf/
+cache/

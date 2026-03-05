@@ -1,0 +1,12 @@
+Diagnostics:
+    UnusedIncludes: None
+CompileFlags:
+    Add:
+        [
+            --driver-mode=cl,
+            -fms-extensions,
+            -fms-compatibility,
+            -fms-compatibility-version=19.44,
+        ]
+Completion:
+    HeaderInsertion: Never

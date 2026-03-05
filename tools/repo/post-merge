@@ -1,0 +1,3 @@
+#!/bin/bash
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+py "$REPO_ROOT/tools/update_git.py"

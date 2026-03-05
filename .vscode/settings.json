@@ -1,0 +1,120 @@
+{
+	"C_Cpp.intelliSenseEngine": "disabled",
+	"[cpp]": {
+		"editor.defaultFormatter": "ms-vscode.cpptools" // Clang format on my system is kinda borked so I just do this to stop it
+	},
+	"clangd.arguments": ["--compile-commands-dir=${workspaceFolder}/build"],
+	"files.associations": {
+		"**/.clangd": "yaml"
+	},
+	"editor.tokenColorCustomizations": {
+		"[One Dark Darker]": {
+			"textMateRules": [
+				{
+					"name": "C/C++ Preprocessor Macros",
+					"scope": "entity.name.function.preprocessor.cpp",
+					"settings": {
+						"foreground": "#98c379"
+					}
+				},
+				{
+					"name": "C/C++ Preprocessor Macro Commas",
+					"scope": "meta.function.preprocessor.parameters.cpp",
+					"settings": {
+						"foreground": "#AAB1C0"
+					}
+				},
+				{
+					"name": "C/C++ Preprocessor Macro Variable Macros",
+					"scope": "variable.other.macro.argument.cpp",
+					"settings": {
+						"foreground": "#98c379"
+					}
+				},
+				{
+					"name": "C/C++ Operator Overload Type",
+					"scope": "entity.name.operator.type.cpp",
+					"settings": {
+						"foreground": "#D55FDE"
+					}
+				},
+				{
+					"name": "C/C++ Operator Overload Pointer",
+					"scope": "entity.name.operator.type.pointer.cpp",
+					"settings": {
+						"foreground": "#D55FDE"
+					}
+				}
+			]
+		}
+	},
+	"colorful-comments-refreshed.tags": [
+		{
+			"tag": "!",
+			"color": "#FF2D00",
+			"strikethrough": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "?",
+			"color": "#0076FF",
+			"strikethrough": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "§",
+			"color": "#474747",
+			"strikethrough": true,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "/",
+			"color": "#EAF622",
+			"strikethrough": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "$",
+			"color": "#28FF00",
+			"strikethrough": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "&",
+			"color": "#FF06A0",
+			"strikethrough": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "~",
+			"color": "#BE00FF",
+			"strikethrough": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "@",
+			"color": "#FF8C00",
+			"strikethrough": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		}
+	],
+	"vsicons.associations.folders": [
+		{ "icon": "helper", "extensions": ["vendor"] }
+	]
+}
