@@ -12,9 +12,9 @@ typedef void* ControlFlowResult;
 
 // add a hook to be called at the specified hook location. Can only be called during mod initalization; if called after mod initialization, will fail
 // and crash/deload the mod.
-extern void blacksmith_hook(uint32_t hook, ControlFlowResult (*callback)(...));
+extern void blacksmith_hook(uint32_t hook, ControlFlowResult (*callback)(uint32_t hook, ...));
 
-#include "generated_hook_constants.h"
+// #include "generated_hook_constants.h"
 
 // PROFILE_VERSION_CURRENT version - 14 maps to PROFILE_VERSION_12 which says Java 1.6.4
 #define SUPPORTED_GAME_VERSION 14
