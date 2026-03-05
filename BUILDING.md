@@ -36,7 +36,7 @@
     > Specifify a target using the path to target plus the symbol name as follows:
     >
     > ```
-    > meson compile -j [number of cpu threads] -C build [target path]/[target version]
+    > meson compile -j [number of cpu threads] -C build [target path]/[target name]
     > ```
 - Rebuilding a target
     > Cleaning out the previous build requires you to re-run the setup with --wipe before the builddir (ie. 'build')
